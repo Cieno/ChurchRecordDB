@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6ec8b5ac-ad51-4493-aa4d-e1cd65067cd5" ChangeDateTime="09/03/2020 17:34:39">
+    <Property Name="ElementName" Value="[dbo].[TB_WORSHIP_INFO].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_WORSHIP_INFO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WORSHIP_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a2be2695-6ca6-44af-93fe-84e166e23e5f" ChangeDateTime="09/03/2020 17:38:20">
+    <Property Name="ElementName" Value="[dbo].[TB_WORSHIP_INFO].[WORSHIP_DESCR]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_WORSHIP_INFO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WORSHIP_NAME" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa71d26d-7690-4d2a-bed9-c8dfea30f213" ChangeDateTime="09/03/2020 17:59:15">
+    <Property Name="ElementName" Value="[dbo].[TB_MEMBER_INFO].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_MEMBER_INFO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MEMBER_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="485c4951-b670-43f7-afdc-fe993bdef3a2" ChangeDateTime="09/03/2020 18:24:41">
+    <Property Name="ElementName" Value="[dbo].[TB_ATTENDANCE_LIST].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_ATTENDANCE_LIST]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WORSHIP_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="110ba244-b0d9-41e1-84c3-bc5a206ce5f2" ChangeDateTime="09/04/2020 14:51:07">
+    <Property Name="ElementName" Value="[dbo].[TB_WORSHIP_INFO].[FROM_TO]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_WORSHIP_INFO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FROM_TIME" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="921b2141-597b-4fbe-88a7-2adf1cecc8ac" ChangeDateTime="09/12/2020 20:34:09">
+    <Property Name="ElementName" Value="[dbo].[TB_WORSHIP_INFO].[FROM_TIME]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_WORSHIP_INFO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="START_TIME" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a04fa8e4-f7dc-4a1d-af28-35abc37f771b" ChangeDateTime="09/15/2020 04:41:36">
+    <Property Name="ElementName" Value="[dbo].[TB_CATEGORY_MST].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_CATEGORY_MST]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CATEGORY_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b98cc3f8-d328-4790-abf5-da37966faebb" ChangeDateTime="09/15/2020 04:44:12">
+    <Property Name="ElementName" Value="[dbo].[TB_CODE_MST].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_CODE_MST]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CODE_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="64d0e88b-a026-4a38-ad27-90c322bee96e" ChangeDateTime="09/15/2020 05:54:12">
+    <Property Name="ElementName" Value="[dbo].[TB_CATEGORY_MST].[ABB]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_CATEGORY_MST]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ABBR_CD" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3ba9442e-7834-4a6a-a0fe-841ce78ebae7" ChangeDateTime="09/19/2020 06:15:47">
+    <Property Name="ElementName" Value="[dbo].[TB_MEMBER_INFO].[GROUP_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_MEMBER_INFO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GROUP_CD" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="85df7bed-f27f-48ab-8539-37fa4f1b8724" ChangeDateTime="09/19/2020 06:15:51">
+    <Property Name="ElementName" Value="[dbo].[TB_MEMBER_INFO].[TEAM_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_MEMBER_INFO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TEAM_CD" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1eb403b1-1279-4b64-9a0b-cb51a1184538" ChangeDateTime="09/20/2020 02:08:33">
+    <Property Name="ElementName" Value="[dbo].[TB_ID_MAPPING_MST].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_ID_MAPPING_MST]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="KEY_VALUE" />
+  </Operation>
+</Operations>

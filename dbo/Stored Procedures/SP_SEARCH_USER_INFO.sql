@@ -1,0 +1,31 @@
+﻿CREATE PROCEDURE [dbo].[SP_SEARCH_USER_INFO]
+	@id nvarchar(450)
+AS
+BEGIN
+    SELECT UT.[Id]
+          ,[UserName]
+          ,[NormalizedUserName]
+          ,[Email]
+          ,[NormalizedEmail]
+          ,[EmailConfirmed]
+          ,[PasswordHash]
+          ,[SecurityStamp]
+          ,UT.[ConcurrencyStamp]
+          ,[PhoneNumber]
+          ,[PhoneNumberConfirmed]
+          ,[TwoFactorEnabled]
+          ,[LockoutEnd]
+          ,[LockoutEnabled]
+          ,[AccessFailedCount]
+          ,[FirstName]
+          ,[LastName]
+          ,URT.RoleId
+          --,RT.[Name]   AS RoleName 
+      FROM [AspNetUsers]   UT
+      JOIN AspNetUserRoles   URT
+        ON UT.Id = URT.UserId
+      --JOIN AspNetRoles   RT
+      --  ON URT.RoleId = RT.Id
+     WHERE UT.Id = @id
+END
+RETURN @@ROWCOUNT
